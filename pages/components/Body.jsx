@@ -40,16 +40,11 @@ const Body = () => {
       <div className="lg:flex gap-10">
         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
           <Image src={consulting} width={100} height={100} alt="" />
-          <h3 className="text-lg font-medium pt-8 pb-2  ">Consulting</h3>
+          <h3 className="text-lgq font-medium pt-8 pb-2  ">Consulting</h3>
           <p className="py-2">
             Are you interested in feedback for your current project? I can give
             you tips and tricks to level it up.
           </p>
-          <h4 className="py-4 text-teal-600"> Tools I Use</h4>
-          <p className="text-gray-800 py-1">React</p>
-          <p className="text-gray-800 py-1">Typescript</p>
-          <p className="text-gray-800 py-1">Javascript</p>
-          <p className="text-gray-800 py-1">Git</p>
         </div>
       </div>
     </section>
