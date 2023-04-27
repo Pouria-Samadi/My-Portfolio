@@ -1,6 +1,6 @@
 import { AiFillLinkedin } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
-import { FaInstagramSquare } from "react-icons/fa";
+import { GoMarkGithub } from "react-icons/go";
 import Image from "next/image";
 import pouria from "../../public/pouria.png";
 
@@ -20,14 +20,10 @@ const Description = () => {
       <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
         <MdEmail />
         <AiFillLinkedin />
-        <FaInstagramSquare />
+        <GoMarkGithub />
       </div>
       <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-        <Image
-          src={pouria}
-          alt="User profile photo"
-          priority
-        />
+        <Image src={pouria} alt="User profile photo" priority />
       </div>
     </div>
   );

@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Navbar from "./components/Navbar";
 import Description from "./components/Description";
+import Body from "./components/Body";
+import Portfolio from "./components/Portfolio";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
           <Navbar />
           <Description />
         </section>
+        <Body/>
+        <Portfolio/>
       </main>
     </div>
   );
